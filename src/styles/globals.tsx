@@ -1,5 +1,5 @@
-import { variables } from "@/styles/variables";
 import { createGlobalStyle } from "styled-components";
+import { variables } from "@/styles/variables";
 
 export const GlobalStyle = createGlobalStyle`
   ${variables}
