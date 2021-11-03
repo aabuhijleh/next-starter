@@ -4,6 +4,14 @@ module.exports = {
       version: "detect",
     },
   },
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: "module",
+  },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -15,15 +23,13 @@ module.exports = {
     "plugin:prettier/recommended",
     "next",
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: "module",
-  },
-  plugins: ["react", "react-hooks", "jsx-a11y", "@typescript-eslint"],
+  plugins: [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "@typescript-eslint",
+    "sort-imports-es6-autofix",
+  ],
   rules: {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
@@ -34,14 +40,12 @@ module.exports = {
         patterns: [".*"],
       },
     ],
-    "sort-imports": [
+    "sort-imports-es6-autofix/sort-imports-es6": [
       "error",
       {
         ignoreCase: false,
-        ignoreDeclarationSort: false,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
-        allowSeparatedGroups: false,
       },
     ],
   },

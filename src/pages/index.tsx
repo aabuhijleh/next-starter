@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import type { NextPage } from "next";
 import styled from "styled-components";
+import type { NextPage } from "next";
 
 const Heading = styled.h1`
   margin-bottom: 3rem;
