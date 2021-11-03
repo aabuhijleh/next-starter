@@ -22,7 +22,7 @@ const Link = styled.a`
 const Footer = styled.footer`
   display: flex;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid var(--light-gray);
   justify-content: center;
   align-items: center;
 `;
