@@ -1,6 +1,6 @@
 # 🚀 Next TypeScript Styled Components Starter
 
-> An opinionated boilerplate project for Next.js with TypeScript, Styled Components, ESLint, Prettier, Husky, gitmoji and GitHub CI
+> [Next.js](https://vercel.com/solutions/nextjs) framework TypeScript Styled Components starter repository.
 
 ## Usage 💻
 
