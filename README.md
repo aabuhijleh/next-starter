@@ -1,6 +1,6 @@
 # 🚀 Next Starter
 
-> [Next.js](https://vercel.com/solutions/nextjs) framework TypeScript, Styled Components starter repository.
+> [Next.js](https://github.com/vercel/next.js) framework TypeScript, Styled Components starter repository.
 
 ## 💻 Usage
 

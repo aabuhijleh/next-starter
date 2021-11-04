@@ -1,5 +1,5 @@
 {
-  "name": "next-typescript-styled-components-starter",
+  "name": "next-starter",
   "private": true,
   "scripts": {
     "dev": "next dev",
