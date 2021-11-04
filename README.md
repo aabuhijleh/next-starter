@@ -1,10 +1,10 @@
-# 🚀 Next TypeScript Styled Components Starter
+# 🚀 Next Starter
 
-> [Next.js](https://vercel.com/solutions/nextjs) framework TypeScript Styled Components starter repository.
+> [Next.js](https://vercel.com/solutions/nextjs) framework TypeScript, Styled Components starter repository.
 
-## Usage 💻
+## 💻 Usage
 
-```sh
+```bash
 # install dependencies
 $ npm install
 
